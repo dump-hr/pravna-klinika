@@ -780,8 +780,9 @@ ul > li {
     padding-top: 10px;
 }
 .panel-body .list {
-    padding-left: 0px;
     list-style-type: none;
+    margin-bottom: 0px;
+    padding: 0px;
 }
 .isotope-container a {
     cursor: default;
