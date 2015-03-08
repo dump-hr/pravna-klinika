@@ -572,6 +572,11 @@ textarea {
 	font-size: 12px;
 }
 
+#logo {
+    width: 60px;
+    height: 60px;
+}
+
 /* Testimonials
 ---------------------------------- */
 .testimonial .media-left {
