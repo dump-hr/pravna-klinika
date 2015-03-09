@@ -805,6 +805,41 @@ ul > li {
     text-decoration: underline;
 }
 .partner-logo {
-    width: 165px;
     height: 116px;
+}
+
+.generations {
+    margin-top: 40px;
+}
+
+.generations-item {
+    color: white;
+    background-color: #339BEB;
+    border-color: #339BEB;
+    padding: 10px 30px;
+    margin: 0 5px;
+    border-radius: 0;
+    border: 1px solid transparent;
+    outline: none !important;
+    -ms-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transition: all 150ms ease-out;
+    -moz-transition: all 150ms ease-out;
+    -ms-transition: all 150ms ease-out;
+    -o-transition: all 150ms ease-out;
+    transition: all 150ms ease-out;
+    line-height: 1.35;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none !important;
+    cursor: pointer;
+}
+
+.generations-item:hover, .generations-item:active {
+    color: white;
+    background-color: #0090FF;
+    border-color: #3AA9FF;
 }
