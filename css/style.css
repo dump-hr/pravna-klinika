@@ -843,3 +843,45 @@ ul > li {
     background-color: #0090FF;
     border-color: #3AA9FF;
 }
+
+.google-maps {
+    position: relative;
+    padding-bottom: 60%;
+    height: 0;
+    overflow: hidden;
+}
+
+.google-maps iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.workflow-mobile { 
+    display: none;
+}
+
+@media (max-width:767px) {
+	.col-xs-4 {
+        float: initial;
+        width: auto;
+	}
+
+    .partner-logo {
+        height: 100px;
+    }
+
+    .workflow-desktop {
+        display: none;
+    }
+
+    .workflow-mobile {
+        display: block;
+    }
+
+    .navbar-default .navbar-collapse {
+      background: rgba(0, 0, 0, 0.88);
+    }
+}
